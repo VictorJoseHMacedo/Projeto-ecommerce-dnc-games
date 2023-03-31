@@ -1,0 +1,23 @@
+@use "../../sass/variables" as *;
+
+.logo__footer {
+    background-color: $contrast-color;
+    display: flex;
+    color: #FFFFFF;
+    
+    &-img{
+        display: flex;
+        margin-left: 20px;
+        margin-bottom: 40px;
+    }
+    
+    &-text {
+        margin-left: 120px;
+        margin-top: 37px;
+        
+        font-style: normal;
+        font-size: 18px;
+        line-height: 21px;
+       
+    }
+}

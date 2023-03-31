@@ -1,0 +1,86 @@
+@use "../../sass/variables" as *;
+
+.product-detail {
+  display: flex;
+  justify-content: space-evenly;
+  height: 70vh;
+  margin-top: 120px;
+
+  &__cube-colors {
+    display: flex;
+    gap: 1rem;
+  }
+
+  &__sizes {
+    display: flex;
+    column-gap: 1rem;
+  }
+
+  &__left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  &__card {
+    border-radius: 8px;
+    border: 1px solid $border-background-card;
+    border: 0;
+  }
+
+  &__description {
+    p {
+      padding-top: 0.7rem;
+      padding-bottom: 2rem;
+    
+    }
+
+    h1{
+        margin-top: 20px;
+    }
+
+    h5 {
+        border-bottom: 2px solid $contrast-color;
+        margin-top: 20px;
+    }
+  }
+
+  &__right-side {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .modal-abrir {
+      background-color: $contrast-color;
+      width: 638px;
+      height: 47px;
+      border-radius: 10px;
+      margin-top: 150px;
+      border: 0;
+     
+     
+      text-decoration: none;
+      color: $white;
+      font-size: 25px;
+      font-weight: 700;
+      line-height: 20px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    .modal-abrir:hover{
+        transition: all ease 0.5s;
+        background-color: black;
+        color: white;
+    }
+
+
+    .search__search-cartShop {
+        position: absolute;
+        right: 740px;
+        cursor: pointer;
+        
+        
+    }
+  }
+}

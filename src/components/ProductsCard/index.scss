@@ -1,0 +1,30 @@
+@use "../../sass/variables" as *;
+
+.home {
+    background-color: #2D2D2D;
+}
+
+.home__card {
+    background-color: white;
+    margin: 2px 2px;
+}
+
+
+.itens:hover{
+    transition: all ease 0.5s;
+    background-color: black;
+    color: white;
+    
+}
+
+.itens {
+        height: 30px;
+        width: 150px;
+        border-radius: 5px;
+        border: none;
+        background-color: $contrast-color;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+

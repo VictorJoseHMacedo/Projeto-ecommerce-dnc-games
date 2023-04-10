@@ -6,6 +6,7 @@ Este é um projeto de um e-commerce de jogos e video games utilizando a bibliote
 - HTML5
 - SASS
 - React Router
+- Mock (Simulador de Banco de Dados)
 
 ## Funcionalidades
 ### Página de Login

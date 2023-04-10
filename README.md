@@ -2,9 +2,10 @@
 Este é um projeto de um e-commerce de jogos e video games utilizando a biblioteca React JS. O objetivo é criar uma aplicação web interativa que permita aos usuários realizar compras de jogos e video games, com várias funcionalidades, como login com verificação de input, página de produtos com um banner de fotos em movimento, detalhes do produto, modal de finalização de compra, preenchimento de informações pessoais e página de rastreamento de pedidos simulados.
 
 ## Tecnologias Utilizadas
-React JS
-HTML5
-CSS3
+- React JS
+- HTML5
+- SASS
+- React Router
 
 ## Funcionalidades
 ### Página de Login
@@ -29,10 +30,10 @@ Após finalizar a compra, os usuários são redirecionados para a página de ras
 Nessa página, é exibido um número de pedido fictício e uma imagem dos correios, que serve como link para o site dos correios para rastreamento do pedido simulado.
 
 ## Instalação e Execução
-Clone o repositório para sua máquina local.
-Navegue até o diretório do projeto e execute o comando npm install para instalar as dependências.
-Após a instalação, execute o comando npm start para iniciar a aplicação em seu navegador.
-Acesse a aplicação no navegador, utilizando a URL http://localhost:3000.
+- Clone o repositório para sua máquina local.
+- Navegue até o diretório do projeto e execute o comando npm install para instalar as dependências.
+- Após a instalação, execute o comando npm start para iniciar a aplicação em seu navegador.
+- Acesse a aplicação no navegador, utilizando a URL http://localhost:3000.
 
 ## Considerações Finais
 Este projeto é apenas uma simulação de um e-commerce de jogos e video games, com funcionalidades básicas implementadas utilizando React JS. É uma aplicação em constante evolução, com potencial para adição de mais recursos, como integração com APIs de pagamento, gerenciamento de estado mais avançado, entre outros. Fique à vontade para contribuir ou utilizar este projeto como base para o desenvolvimento de sua própria aplicação de comércio eletrônico.

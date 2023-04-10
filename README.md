@@ -19,7 +19,7 @@ Há um banner de fotos em movimento que exibe imagens dos jogos em destaque, tor
 
 #### Página de Detalhes do Produto
 Os usuários podem acessar a página de detalhes do produto ao clicar em um item na página de produtos.
-A página exibe informações detalhadas do jogo selecionado, como título, descrição, preço e avaliações dos usuários.
+A página exibe informações detalhadas do jogo selecionado, como título, descrição, preço e cores.
 
 #### Modal de Finalização de Compra
 Ao clicar em "Finalizar Compra" na página de detalhes do produto, os usuários são redirecionados para uma página de modal.

@@ -2,34 +2,34 @@
 
 
 .login {
-    
+
     height: 20vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-  
-  
+
+
     &__form {
         margin-top: 5rem;
         text-align: center;
         align-items: center;
         height: 100%;
-      }
-  
-    h1{
+    }
+
+    h1 {
         font-size: 30px;
         font-weight: 500;
         line-height: 35px;
-        
+
     }
 
-    h2{
+    h2 {
         font-size: 22px;
         font-weight: 500;
         line-height: 26px;
     }
 
-    label{
+    label {
         text-align: left;
         font-size: 20px;
         line-height: 23px;
@@ -52,18 +52,18 @@
     }
 
     button {
-      width: 524px;
-      margin-right: 10px;
-      border: none;
-      background-color: $contrast-color;
-      border-radius: 6px;
-      padding: 13px;
-      margin-top: 50px;
-      margin-bottom: 5px;
-      font-size: 18px;
-      font-weight: 800;
-      line-height: 21px;
-      cursor: pointer;
+        width: 524px;
+        margin-right: 10px;
+        border: none;
+        background-color: $contrast-color;
+        border-radius: 6px;
+        padding: 13px;
+        margin-top: 50px;
+        margin-bottom: 5px;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 21px;
+        cursor: pointer;
     }
 
     button:hover {
@@ -71,27 +71,28 @@
         background-color: black;
         color: white;
     }
-    
+
     a {
         text-decoration: none;
         color: $white;
-      }
+    }
 
     #erroNome {
-        margin-left: 420px;   
+        margin-left: 420px;
     }
 
     #erroSenha {
-        margin-left: 420px; 
+        margin-left: 420px;
     }
 
-    p{
+    p {
         height: 100%;
     }
 
     #sucess {
-        margin-left:-5px;
-        
+        margin-left: -5px;
+
     }
 }
+
 

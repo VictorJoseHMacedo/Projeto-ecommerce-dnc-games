@@ -5,3 +5,12 @@
     padding: 50px;
     background-color: $header-background;
 }
+
+
+@media (max-width: 480px) {
+    .header { 
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+}
